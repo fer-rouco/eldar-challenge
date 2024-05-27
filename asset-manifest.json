@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/eldar-challenge-client/static/css/main.b7b67d66.css",
+    "main.js": "/eldar-challenge-client/static/js/main.217d84c5.js",
+    "static/js/577.1f678cbc.chunk.js": "/eldar-challenge-client/static/js/577.1f678cbc.chunk.js",
+    "static/js/81.cbec6a81.chunk.js": "/eldar-challenge-client/static/js/81.cbec6a81.chunk.js",
+    "static/js/515.a86fd639.chunk.js": "/eldar-challenge-client/static/js/515.a86fd639.chunk.js",
+    "static/js/140.ee6df686.chunk.js": "/eldar-challenge-client/static/js/140.ee6df686.chunk.js",
+    "static/js/433.78cb8632.chunk.js": "/eldar-challenge-client/static/js/433.78cb8632.chunk.js",
+    "static/js/787.3015b479.chunk.js": "/eldar-challenge-client/static/js/787.3015b479.chunk.js",
+    "static/js/776.43a5d2e1.chunk.js": "/eldar-challenge-client/static/js/776.43a5d2e1.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/eldar-challenge-client/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/eldar-challenge-client/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "index.html": "/eldar-challenge-client/index.html",
+    "main.b7b67d66.css.map": "/eldar-challenge-client/static/css/main.b7b67d66.css.map",
+    "main.217d84c5.js.map": "/eldar-challenge-client/static/js/main.217d84c5.js.map",
+    "577.1f678cbc.chunk.js.map": "/eldar-challenge-client/static/js/577.1f678cbc.chunk.js.map",
+    "81.cbec6a81.chunk.js.map": "/eldar-challenge-client/static/js/81.cbec6a81.chunk.js.map",
+    "515.a86fd639.chunk.js.map": "/eldar-challenge-client/static/js/515.a86fd639.chunk.js.map",
+    "140.ee6df686.chunk.js.map": "/eldar-challenge-client/static/js/140.ee6df686.chunk.js.map",
+    "433.78cb8632.chunk.js.map": "/eldar-challenge-client/static/js/433.78cb8632.chunk.js.map",
+    "787.3015b479.chunk.js.map": "/eldar-challenge-client/static/js/787.3015b479.chunk.js.map",
+    "776.43a5d2e1.chunk.js.map": "/eldar-challenge-client/static/js/776.43a5d2e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7b67d66.css",
+    "static/js/main.217d84c5.js"
+  ]
+}
