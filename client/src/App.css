@@ -1,0 +1,33 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: auto;
+}
+
+header {
+  height: 5vh;
+}
+
+main {
+  height: 90vh;
+}
+
+footer {
+  height: 5vh;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  margin-block-start: 6px !important;
+  margin-block-end: 6px !important;
+}
+
+p {
+  margin-bottom: 0 !important;
+  margin-block-end: 0 !important;
+}
