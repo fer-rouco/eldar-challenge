@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkeldar_challenge=self.webpackChunkeldar_challenge||[]).push([[81],{9081:function(e,n,l){l.r(n);l(2791);var a=l(184);n.default=function(){return(0,a.jsx)(a.Fragment,{children:(0,a.jsx)("h1",{children:"Page not found."})})}}}]);
+//# sourceMappingURL=81.d4d3f9a0.chunk.js.map

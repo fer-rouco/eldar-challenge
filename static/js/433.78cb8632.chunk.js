@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkeldar_challenge_client=self.webpackChunkeldar_challenge_client||[]).push([[433],{8433:function(e,n,l){l.r(n);var r=l(184);n.default=function(){return(0,r.jsx)(r.Fragment,{children:"Server not ready"})}}}]);
-//# sourceMappingURL=433.78cb8632.chunk.js.map
