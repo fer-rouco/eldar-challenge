@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/eldar-challenge/static/css/main.2dff9c3c.css",
-    "main.js": "/eldar-challenge/static/js/main.fe7daf04.js",
+    "main.js": "/eldar-challenge/static/js/main.4f3cbabd.js",
     "static/js/577.c24c68a9.chunk.js": "/eldar-challenge/static/js/577.c24c68a9.chunk.js",
     "static/js/81.d4d3f9a0.chunk.js": "/eldar-challenge/static/js/81.d4d3f9a0.chunk.js",
-    "static/js/515.61b274a3.chunk.js": "/eldar-challenge/static/js/515.61b274a3.chunk.js",
-    "static/js/140.265d0644.chunk.js": "/eldar-challenge/static/js/140.265d0644.chunk.js",
+    "static/js/515.0fd4e013.chunk.js": "/eldar-challenge/static/js/515.0fd4e013.chunk.js",
+    "static/js/140.51597fba.chunk.js": "/eldar-challenge/static/js/140.51597fba.chunk.js",
     "static/js/433.8ccd3141.chunk.js": "/eldar-challenge/static/js/433.8ccd3141.chunk.js",
     "static/js/787.373ed78d.chunk.js": "/eldar-challenge/static/js/787.373ed78d.chunk.js",
     "static/js/776.5e2c80bc.chunk.js": "/eldar-challenge/static/js/776.5e2c80bc.chunk.js",
@@ -13,17 +13,17 @@
     "static/media/bootstrap-icons.woff2?": "/eldar-challenge/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/eldar-challenge/index.html",
     "main.2dff9c3c.css.map": "/eldar-challenge/static/css/main.2dff9c3c.css.map",
-    "main.fe7daf04.js.map": "/eldar-challenge/static/js/main.fe7daf04.js.map",
+    "main.4f3cbabd.js.map": "/eldar-challenge/static/js/main.4f3cbabd.js.map",
     "577.c24c68a9.chunk.js.map": "/eldar-challenge/static/js/577.c24c68a9.chunk.js.map",
     "81.d4d3f9a0.chunk.js.map": "/eldar-challenge/static/js/81.d4d3f9a0.chunk.js.map",
-    "515.61b274a3.chunk.js.map": "/eldar-challenge/static/js/515.61b274a3.chunk.js.map",
-    "140.265d0644.chunk.js.map": "/eldar-challenge/static/js/140.265d0644.chunk.js.map",
+    "515.0fd4e013.chunk.js.map": "/eldar-challenge/static/js/515.0fd4e013.chunk.js.map",
+    "140.51597fba.chunk.js.map": "/eldar-challenge/static/js/140.51597fba.chunk.js.map",
     "433.8ccd3141.chunk.js.map": "/eldar-challenge/static/js/433.8ccd3141.chunk.js.map",
     "787.373ed78d.chunk.js.map": "/eldar-challenge/static/js/787.373ed78d.chunk.js.map",
     "776.5e2c80bc.chunk.js.map": "/eldar-challenge/static/js/776.5e2c80bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2dff9c3c.css",
-    "static/js/main.fe7daf04.js"
+    "static/js/main.4f3cbabd.js"
   ]
 }
