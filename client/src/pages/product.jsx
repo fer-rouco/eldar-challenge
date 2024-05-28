@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 import { findById, create, update } from '../services/server/product-service';
 import Panel from '../components/containers/panel';
 import { usePage } from '../contexts/page-context';
 import InputField from '../components/controls/fields/input-field';
 import SubmitButton from '../components/controls/buttons/submit-button';
+import Button from '../components/controls/buttons/button';
 import { useNavigate } from 'react-router-dom';
 import { useAlertMessage } from '../contexts/alert-message-context';
 import storageManagerService from "../services/storage/storage-manager-service";
@@ -15,7 +17,6 @@ const Product = ({ hideTitle }) => {
   const navigate = useNavigate();
   const { addSuccessMessage, addErrorMessage } = useAlertMessage();
 
-  // const [model, setModel] = useState({ category: '', description: '', price: 0 });
   const {id, isCreatePageType, isEditPageType, isViewPageType} = usePage();
 
   const [category, setCategory] = useState('');
@@ -23,24 +24,22 @@ const Product = ({ hideTitle }) => {
   const [price, setPrice] = useState(0);
 
   useEffect(() => {
-    // console.log(`Pr Id: ${productId}     Type: ${pageType}`);
-    
     if (!isCreatePageType()) {
       findById(id).then((product) => {
-        // setModel({ category: product.category, description: product.description, price: product.price });
         setCategory(product.category);
         setDescription(product.description);
         setPrice(product.price);
       });
     }
-
-    return () => {
-      // setModel({});
-    };
   }, [id]);
 
   const actionLabel = () => {
     return (isCreatePageType()) ? 'Create' : 'Update';
+  }
+
+  const handleCancelClick = () => {
+    console.log("Cancel")
+    navigate('/Products');
   }
 
   const build = () => {
@@ -60,7 +59,10 @@ const Product = ({ hideTitle }) => {
           </div>
         </div>
         { isViewPageType() ||
-          <div className="row justify-content-center">
+          <div className="row">
+            <div className="col-sm-6 col-md-6">
+              <Button label='Cancel' className="w-100" large onClick={handleCancelClick} ></Button>
+            </div>
             <div className="col-sm-6 col-md-6">
               <SubmitButton label={actionLabel()} className="w-100" large ></SubmitButton>
             </div>
@@ -107,11 +109,14 @@ const Product = ({ hideTitle }) => {
   }
 
   return (
-    <>
-      <Panel title={`${actionLabel()} Product`.trim()} size='medium' hideTitle={hideTitle} >
-        {(isViewPageType()) ? build() : buildForm()}
-      </Panel>
-    </>
+    <Panel title={`${actionLabel()} Product`.trim()} size='medium' hideTitle={hideTitle} >
+      {(isViewPageType()) ? build() : buildForm()}
+    </Panel>
   )
 };
+
+Product.propTypes = {
+  hideTitle: PropTypes.bool
+};
+
 export default Product;

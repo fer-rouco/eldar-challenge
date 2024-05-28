@@ -1,12 +1,9 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter, RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
-// import { ThemeModeProvider } from './contexts/theme-context';
 import reportWebVitals from './reportWebVitals';
 import { get } from './services/server/base-service';
-import LoadIndicator from './components/general/load-indicator';
-// import './i18n';
 import './index.css';
 
 const container = document.getElementById('root');
@@ -25,7 +22,7 @@ get('api/healthcheck')
   .finally(() => {
     const routing = (
       <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/eldar-challenge" >
           {routingApp}
         </BrowserRouter>
       </React.StrictMode>

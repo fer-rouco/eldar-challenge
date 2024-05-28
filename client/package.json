@@ -1,6 +1,6 @@
 {
-  "homepage": "https://fernet87.github.io/eldar-challenge-client",
-  "name": "eldar-challenge-client",
+  "homepage": "https://fernet87.github.io/eldar-challenge",
+  "name": "eldar-challenge",
   "version": "0.1.0",
   "description": "Eldar Challenge Client",
   "private": true,
@@ -20,11 +20,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build --base-href /eldar-challenge/",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "clean": "rm -rf ./build"
   },
   "eslintConfig": {
     "extends": [

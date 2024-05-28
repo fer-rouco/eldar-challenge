@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { useEffect, useState } from "react";
 
 const StyledButton = styled.button((props) => {
   return `
@@ -54,7 +53,7 @@ export default function Button(props) {
   };
 
   return (
-    <StyledButton type={getType()} className={getClasses()} disabled={props.disabled} onClick={props.onClick} onKeyPress={props.onKeyPress} >
+    <StyledButton type={getType()} className={getClasses()} disabled={props.disabled} onClick={props.onClick} onKeyPress={props.onKeyPress} data-bs-dismiss={props.dataBsDismiss} >
       {props.left}
       {props.label}
       {props.right}

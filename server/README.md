@@ -1,6 +1,6 @@
 # Eldar Challenge Server
 
-Available live [here](https://fernet87.github.io/eldar-challenge-client/) 
+Available live [here](https://fernet87.github.io/eldar-challenge/) 
 
 ## **How to start project**
 

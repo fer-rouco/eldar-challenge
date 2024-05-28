@@ -28,7 +28,6 @@ function buildDynamicRouteElement(elementName) {
 
 function App({ error }) {
   return (
-    <>
     <AlertMessageProvider>
       <header>
         <NavBar title="Eldar Challenge" />
@@ -61,7 +60,6 @@ function App({ error }) {
         <Footer></Footer>
       </footer>
     </AlertMessageProvider>
-    </>
   );
 }
 

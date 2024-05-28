@@ -1,6 +1,6 @@
 # Eldar Challenge Client
 
-Available live [here](https://fer-rouco.github.io/eldar-challenge-client/) 
+Available live [here](https://fer-rouco.github.io/eldar-challenge/) 
 
 ## **How to start project**
 
